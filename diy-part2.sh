@@ -14,3 +14,6 @@ sed -i 's/192.168.1.1/192.168.2.2/g' package/base-files/files/bin/config_generat
 git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #AdGuardHome
 git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
+
+#wireless
+git clone https://github.com/maxlicheng/phicomm-n1-wireless.git package/base-files/files/etc/modules.d
