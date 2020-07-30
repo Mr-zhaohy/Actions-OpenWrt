@@ -20,4 +20,5 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci
 git clone https://github.com/maxlicheng/phicomm-n1-wireless.git package/base-files/files/etc/modules.d
 #京东签到
 git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
+git clone https://github.com/jerrykuku/node-request.git package/node-request
 
