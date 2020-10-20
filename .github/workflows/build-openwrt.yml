@@ -119,7 +119,7 @@ jobs:
       if: steps.compile.outputs.status == 'success' && !cancelled()
       run: |
         cd /opt
-        sudo wget https://github.com/Mr-zhaohy/Actions-OpenWrt/releases/download/底包/mk_openwrt_src_20201018.tar.gz
+        sudo wget https://github.com/Mr-zhaohy/Actions-OpenWrt/releases/download/46%2B/mk_openwrt_src_20201018.tar.gz
         sudo tar xvzf *.tar.gz
         sudo mkdir imgs
         sudo wget https://github.com/HoldOnBro/Actions-OpenWrt/releases/download/Files4Compile/Armbian_20.10_Aml-s9xxx_buster_5.8.16-flippy-46+.img.xz
